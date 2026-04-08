@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(uv run:*)",
+      "Bash(npm -v)",
+      "Bash(find \"C:\\\\Users\\\\rosty\\\\Downloads\\\\src\\\\app\\\\components\" -name \"*.tsx\" -exec grep -l \"next-themes\\\\|next/\\\\|useState\\\\|useEffect\\\\|useContext\" {} \\\\;)",
+      "Bash(curl -s \"http://localhost:5174/src/styles/globals.css\" -w \"%{http_code}\\\\n\" -o /tmp/css.out)",
+      "Bash(npx tsc:*)"
+    ]
+  }
+}
